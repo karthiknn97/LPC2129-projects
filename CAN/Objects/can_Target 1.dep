@@ -1,0 +1,11 @@
+Dependencies for Project 'can', Target 'Target 1': (DO NOT MODIFY !)
+F (.\Startup.s)(0x559CFDE8)(--cpu ARM7TDMI --pd "__EVAL SETA 1" -g --apcs=interwork -IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-IC:\Keil_v5\ARM\INC\Philips--pd "__UVISION_VERSION SETA 525"--list .\listings\startup.lst --xref -o .\objects\startup.o --depend .\objects\startup.d)
+F (.\can.c)(0x5BADFAF8)(--c99 --gnu -c --cpu ARM7TDMI -D__EVAL -g -O0 --apcs=interwork --split_sections-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-IC:\Keil_v5\ARM\INC\Philips-D__UVISION_VERSION="525"-o .\objects\can.o --omf_browse .\objects\can.crf --depend .\objects\can.d)
+I (C:\Keil_v5\ARM\INC\Philips\lpc21xx.h)(0x5B5B059C)
+I (../prototype.h)(0x5BACB038)
+F (..\lcdf.c)(0x5B76E06D)(--c99 --gnu -c --cpu ARM7TDMI -D__EVAL -g -O0 --apcs=interwork --split_sections-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-IC:\Keil_v5\ARM\INC\Philips-D__UVISION_VERSION="525"-o .\objects\lcdf.o --omf_browse .\objects\lcdf.crf --depend .\objects\lcdf.d)
+I (C:\Keil_v5\ARM\INC\Philips\lpc21xx.h)(0x5B5B059C)
+I (..\lcdheader.h)(0x5B644848)
+F (.\main.c)(0x5BADFFBC)(--c99 --gnu -c --cpu ARM7TDMI -D__EVAL -g -O0 --apcs=interwork --split_sections-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-IC:\Keil_v5\ARM\INC\Philips-D__UVISION_VERSION="525"-o .\objects\main.o --omf_browse .\objects\main.crf --depend .\objects\main.d)
+I (C:\Keil_v5\ARM\INC\Philips\lpc21xx.h)(0x5B5B059C)
+I (../prototype.h)(0x5BACB038)
