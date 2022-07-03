@@ -1,0 +1,9 @@
+--cpu ARM7TDMI
+".\objects\startup.o"
+".\objects\can.o"
+".\objects\lcdf.o"
+".\objects\main_rx.o"
+--strict --scatter ".\Objects\can_rx.sct"
+--summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list ".\Listings\can_rx.map" -o .\Objects\can_rx.axf
